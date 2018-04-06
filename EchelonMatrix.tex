@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{standalone}
 \usepackage{amsmath}
 \usepackage{calc}
 \newlength{\aw}  %定义元素的宽度
@@ -13,7 +13,7 @@
 \hspace{-\aw}#1%
 }
 \begin{document}
-\[
+$
 \begin{pmatrix}
 &\lu{a_{1j_1}}&\hdotsfor{3} \\
 &&\lu{\frac{\int_1^2 f(x){\rm d}x}{a_{2j_2}}}&\hdotsfor{2}\\
@@ -21,5 +21,5 @@
 &&&&\lu{agggggggg_{rj_r}}\cdots\\
 &
 \end{pmatrix}
-\]
+$
 \end{document}
